@@ -5,7 +5,7 @@ Portfolio
 
 Portfolio site creation with resume and multiple page layouts. I have an idea to offer different skins through CSS calls and JS on the module page in the portfolio section.
 
-[Kuler](https://kuler.adobe.com/two-lions-color-theme-4442690/) for the color pattern in Jay's branch taken from the screen shot.
+Here is the [Kuler](https://kuler.adobe.com/two-lions-color-theme-4442690/) color pallete for the Jay's branch taken from the lion bkg image.
 
 
 
