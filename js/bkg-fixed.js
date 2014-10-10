@@ -1,7 +1,7 @@
 $(window).load(function(){
   window.addEventListener("scroll", navbar_reset_top,false);
 
-var navbar_top=550;
+var navbar_top=750;
 
 function navbar_reset_top() {
   var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
