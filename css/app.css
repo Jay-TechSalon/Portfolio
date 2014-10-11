@@ -124,10 +124,6 @@ table {
 .icon-linkedin2:before {
   content: "\e617"; }
 
-.large {
-  font-size: 2rem;
-  color: #F5BC57; }
-
 html, body {
   font-family: "Vollkorn", serif; }
   html p, body p {
@@ -148,6 +144,14 @@ a {
   a:hover {
     color: #003642;
     transition: all .30s ease; }
+
+.large {
+  font-size: 2rem;
+  color: #F5BC57; }
+
+.ex-large {
+  font-size: 6rem;
+  color: #F5BC57; }
 
 .text__shadow {
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
@@ -192,12 +196,10 @@ section .article_post {
       opacity: 0.8;
       cursor: pointer; }
 
-footer {
-  height: 5rem; }
-
 .social_nav {
   text-align: center;
-  margin-top: 2rem; }
+  margin-top: 3rem;
+  height: 10rem; }
   .social_nav span {
     padding: 1rem 1rem; }
 
@@ -308,7 +310,7 @@ footer {
 .splash_bkg {
   background: url(../img/NewWhip.jpg) no-repeat;
   background-size: cover;
-  height: 150rem;
+  height: 125rem;
   background-attachment: fixed;
   background-position: center center; }
 
@@ -323,7 +325,7 @@ footer {
 
 .body_light {
   background-color: rgba(255, 255, 255, 0.92);
-  height: 105rem; }
+  height: 80rem; }
 
 #navbar.navbar__fixed {
   position: fixed;

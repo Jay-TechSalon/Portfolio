@@ -23,7 +23,15 @@ a {
     transition: all .30s ease;
   }
 }
+.large {
+  font-size: 2rem;
+  color: $third_color;
+}
 
+.ex-large {
+  font-size: 6rem;
+  color: $third_color;
+}
 
 .text__shadow {
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
