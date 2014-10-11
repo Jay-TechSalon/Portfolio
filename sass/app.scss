@@ -1,7 +1,10 @@
 @import "reset";
 @import url(http://fonts.googleapis.com/css?family=Unica+One|Vollkorn);
 @import "config";
+@import "typography";
 @import "base";
 @import "layout";
 @import "responsive";
-@import "bkg-fixed";
+@import "components/fixed-bkg";
+@import "components/navbar";
+@import "components/posts";
