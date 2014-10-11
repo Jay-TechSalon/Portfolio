@@ -88,9 +88,6 @@ table {
 .icon-quote:before {
   content: "\e602"; }
 
-.icon-flashlight:before {
-  content: "\e608"; }
-
 .icon-flag:before {
   content: "\e609"; }
 
@@ -115,26 +112,14 @@ table {
 .icon-arrow-right:before {
   content: "\e60f"; }
 
-.icon-github:before {
-  content: "\e610"; }
-
 .icon-github2:before {
   content: "\e611"; }
-
-.icon-twitter:before {
-  content: "\e612"; }
 
 .icon-twitter2:before {
   content: "\e613"; }
 
-.icon-tumblr:before {
-  content: "\e614"; }
-
 .icon-tumblr2:before {
   content: "\e615"; }
-
-.icon-linkedin:before {
-  content: "\e616"; }
 
 .icon-linkedin2:before {
   content: "\e617"; }
@@ -152,12 +137,10 @@ html, body {
     line-height: 2rem; }
 
 h1 {
-  font-family: "Unica One", sans-serif;
+  font: 4rem/4rem "Unica One", sans-serif;
   text-transform: uppercase;
-  font-size: 4rem;
   font-weight: bolder;
-  padding: 3rem 0 1.5rem 0;
-  line-height: 4rem; }
+  padding: 3rem 0 1.5rem 0; }
 
 a {
   text-decoration: none;
@@ -166,35 +149,57 @@ a {
     color: #003642;
     transition: all .30s ease; }
 
-img {
-  width: 95%;
-  padding: 5%; }
-
-img:hover {
-  overflow: hidden;
-  opacity: 0.8;
-  cursor: pointer; }
-
 .text__shadow {
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
 
-/*alignment tools for the site*/
 section .article_post {
   margin: 0 auto;
   max-width: 54rem;
   padding-top: 8rem; }
 
-.align__center {
+.shell {
+  background-color: white;
+  width: 100%;
+  height: 29rem; }
+
+.recent_work {
+  margin: 0 auto;
+  max-width: 54rem;
+  width: 85%; }
+  .recent_work h1 {
+    font-size: 2rem;
+    color: #003642; }
+  .recent_work h2 {
+    font-size: 1.5rem;
+    color: #F5BC57;
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    padding-bottom: .5rem; }
+  .recent_work p {
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    width: 90%;
+    text-align: justify; }
+  .recent_work img {
+    width: 100%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    z-index: 5;
+    opacity: 1; }
+    .recent_work img:hover {
+      opacity: 0.8;
+      cursor: pointer; }
+
+footer {
+  height: 5rem; }
+
+.social_nav {
   text-align: center;
-  margin: auto 15%; }
-
-.align__left {
-  text-align: left;
-  margin: auto 15%; }
-
-a .align__right {
-  text-align: right;
-  margin-right: 15%; }
+  margin-top: 2rem; }
+  .social_nav span {
+    padding: 1rem 1rem; }
 
 /*  ----Responsive Grid System Custom Configure by Jay Diran Sweet, using the 2, 3, 4 column grid set up----  */
 /*  ----SECTIONS----  */
@@ -300,34 +305,29 @@ a .align__right {
 
   .span_1_of_4 {
     width: 100%; } }
-/*background fixed styling*/
-.splash__bkg-img--fixed {
+.splash_bkg {
   background: url(../img/NewWhip.jpg) no-repeat;
   background-size: cover;
   height: 150rem;
   background-attachment: fixed;
   background-position: center center; }
 
-.splash__hidden-container--large {
+.splash_container {
   height: 47rem; }
 
-.splash__title {
+.splash_title {
   font: 3rem/3rem "Unica One", sans-serif;
   padding: 30rem 1rem 0 3rem;
   color: #FFF;
   font-weight: bolder; }
 
-.body__light {
+.body_light {
   background-color: rgba(255, 255, 255, 0.92);
-  height: 103rem; }
-
-.img__float-left {
-  float: left;
-  padding: 0 2rem .5rem 0;
-  overflow: hidden; }
+  height: 105rem; }
 
 #navbar.navbar__fixed {
   position: fixed;
+  z-index: 10;
   top: 0;
   padding-top: 1rem;
   width: 100%;
@@ -362,9 +362,9 @@ a .align__right {
   padding: 2rem; }
   .article_post h1 {
     font-size: 2.1rem;
-    line-height: 1.7rem; }
+    line-height: 2.4rem; }
   .article_post p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.5rem; }
 
 /*# sourceMappingURL=app.css.map */

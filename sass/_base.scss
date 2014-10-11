@@ -1,4 +1,5 @@
 // Base Styles
+
 html, body {
   font-family: $font-base, serif;
   p {
@@ -9,12 +10,10 @@ html, body {
   }
 }
 h1 {
-  font-family: $font-titles, sans-serif;
+  font: 4rem/4rem $font-titles, sans-serif;
   text-transform: uppercase;
-  font-size: 4rem;
   font-weight: bolder;
   padding: 3rem 0 1.5rem 0;
-  line-height: 4rem;
 }
 a {
   text-decoration: none;
@@ -24,15 +23,8 @@ a {
     transition: all .30s ease;
   }
 }
-img {
-  width: 95%;
-  padding: 5%;
-}
-img:hover {
-  overflow: hidden;
-  opacity: 0.8;
-  cursor: pointer;
-}
+
+
 .text__shadow {
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
 }
