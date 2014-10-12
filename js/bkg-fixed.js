@@ -5,11 +5,11 @@ var navbar_top=750;
 
 function navbar_reset_top() {
   var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
-  if(scrollTop>navbar_top&&navbar.className==="navbar__absolute") {
-    document.getElementById("navbar").className="navbar__fixed";
+  if(scrollTop>navbar_top&&navbar.className==="navbar_absolute") {
+    document.getElementById("navbar").className="navbar_fixed";
   }
-  else if(scrollTop<navbar_top&&navbar.className==="navbar__fixed") {
-    document.getElementById("navbar").className="navbar__absolute";
+  else if(scrollTop<navbar_top&&navbar.className==="navbar_fixed") {
+    document.getElementById("navbar").className="navbar_absolute";
   }
 }
 });

@@ -1,5 +1,5 @@
 //js selected selectors
-#navbar.navbar__fixed {
+#navbar.navbar_fixed {
   position: fixed;
   z-index: 10;
   top: 0;
@@ -9,11 +9,12 @@
   box-shadow: 0 1px 1px #DCDCDC;
   background-color: rgb( 255, 255, 255);
   background-color: rgba( 255, 255, 255, 0.95);
-  .navbar__inline li {
+  .navbar_inline li {
     background-color: rgba( 5, 5, 5, 0.075);
+    border-radius: 0.1rem;
   }
 }
-#navbar.navbar__absolute {
+#navbar.navbar_absolute {
   position: absolute;
   top: 750px;
   padding-top: 1rem;
@@ -23,13 +24,14 @@
   background-color: rgba( 255, 255, 255, 0.1);
 }
 //main navbar for the site
-.navbar__container {
+.navbar_container {
   padding: .85rem;
 }
-.navbar__inline li {
+.navbar_inline li {
   display: inline;
   margin-left: .5rem;
   padding: .5rem 1rem;
   text-decoration: none;
   background-color: rgba( 5, 5, 5, 0.025);
+  border-radius: 0.1rem;
 }

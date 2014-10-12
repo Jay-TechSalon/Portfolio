@@ -19,7 +19,7 @@ a {
   text-decoration: none;
   color: $second_color;
   &:hover {
-    color: $first_color;
+    color: $third_color;
     transition: all .30s ease;
   }
 }
@@ -31,8 +31,16 @@ a {
 .ex-large {
   font-size: 6rem;
   color: $third_color;
+  &:hover {
+    color:$fourth_color;
+    transition: all .30s ease;
+  }
 }
 
 .text__shadow {
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
 }
+
+
+
+

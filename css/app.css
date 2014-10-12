@@ -142,7 +142,7 @@ a {
   text-decoration: none;
   color: #96B9C0; }
   a:hover {
-    color: #003642;
+    color: #F5BC57;
     transition: all .30s ease; }
 
 .large {
@@ -152,6 +152,9 @@ a {
 .ex-large {
   font-size: 6rem;
   color: #F5BC57; }
+  .ex-large:hover {
+    color: #EE7E14;
+    transition: all .30s ease; }
 
 .text__shadow {
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
@@ -163,8 +166,9 @@ section .article_post {
 
 .shell {
   background-color: white;
+  border-radius: 0.1rem;
   width: 100%;
-  height: 29rem; }
+  height: 32rem; }
 
 .recent_work {
   margin: 0 auto;
@@ -194,14 +198,36 @@ section .article_post {
     opacity: 1; }
     .recent_work img:hover {
       opacity: 0.8;
+      transition: all .30s ease;
       cursor: pointer; }
+  .recent_work button {
+    font-size: 1rem;
+    color: #FFF;
+    background-color: #96B9C0;
+    padding: 0.5rem;
+    border: 0 none;
+    border-radius: 0.1rem;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+    margin-bottom: 5%; }
+    .recent_work button:hover {
+      cursor: pointer;
+      color: #003642;
+      box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1); }
+    .recent_work button:focus {
+      outline: none; }
 
 .social_nav {
   text-align: center;
-  margin-top: 3rem;
-  height: 10rem; }
+  margin-top: 2rem;
+  height: 7.5rem; }
   .social_nav span {
     padding: 1rem 1rem; }
+
+footer p {
+  font-size: 1rem;
+  text-align: center;
+  color: #96B9C0; }
 
 /*  ----Responsive Grid System Custom Configure by Jay Diran Sweet, using the 2, 3, 4 column grid set up----  */
 /*  ----SECTIONS----  */
@@ -327,7 +353,7 @@ section .article_post {
   background-color: rgba(255, 255, 255, 0.92);
   height: 80rem; }
 
-#navbar.navbar__fixed {
+#navbar.navbar_fixed {
   position: fixed;
   z-index: 10;
   top: 0;
@@ -337,10 +363,11 @@ section .article_post {
   box-shadow: 0 1px 1px #DCDCDC;
   background-color: white;
   background-color: rgba(255, 255, 255, 0.95); }
-  #navbar.navbar__fixed .navbar__inline li {
-    background-color: rgba(5, 5, 5, 0.075); }
+  #navbar.navbar_fixed .navbar_inline li {
+    background-color: rgba(5, 5, 5, 0.075);
+    border-radius: 0.1rem; }
 
-#navbar.navbar__absolute {
+#navbar.navbar_absolute {
   position: absolute;
   top: 750px;
   padding-top: 1rem;
@@ -349,15 +376,16 @@ section .article_post {
   background-color: white;
   background-color: rgba(255, 255, 255, 0.1); }
 
-.navbar__container {
+.navbar_container {
   padding: .85rem; }
 
-.navbar__inline li {
+.navbar_inline li {
   display: inline;
   margin-left: .5rem;
   padding: .5rem 1rem;
   text-decoration: none;
-  background-color: rgba(5, 5, 5, 0.025); }
+  background-color: rgba(5, 5, 5, 0.025);
+  border-radius: 0.1rem; }
 
 .article_post {
   color: #EE7E14;
