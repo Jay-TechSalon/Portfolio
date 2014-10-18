@@ -1,8 +1,7 @@
 // Layout for the site
-
 .recent_work {
   margin: 0 auto;
-  padding-top: 5rem;
+  padding: 8rem 3rem 3rem;
   h1 {
     font-size: 2rem;
     color: $first-color;
@@ -14,6 +13,8 @@
     text-align: justify;
     margin: 0 auto;
     padding-bottom: .5rem;
+    text-transform: uppercase;
+    font-family: $font-titles;
   }
   p {
     margin: 0 auto;
@@ -26,18 +27,17 @@
     width: 100%;
     padding-bottom: 5%;
     margin: 0 auto;
+    &:focus, &:hover {
+      transition: all .30s ease;
+      opacity: .8;
+      cursor: pointer;
+      z-index: 5;
+    }
   }
 }
 .full-image {
   width: 100%;
   height: auto;
-}
-.social_nav {
-  text-align: center;
-  margin-top: 1rem;
-  span {
-    padding: 0 1rem;
-  }
 }
 footer {
   p {

@@ -129,26 +129,26 @@ html, body {
   html p, body p {
     padding-bottom: 1.5rem;
     font-size: 1.2rem;
-    color: #003642;
+    color: #204B58;
     line-height: 2rem; }
 
 h1 {
   font: 4rem/4rem "Unica One", sans-serif;
   text-transform: uppercase;
   font-weight: bolder;
-  padding: 1rem 0 1rem 0; }
+  padding: 1rem 0 0 0; }
 
 a {
   text-decoration: none;
-  color: #96B9C0; }
+  color: #2DABAB; }
   a:hover {
-    color: #F5BC57;
+    color: #F5930B;
     transition: all .30s ease; }
 
 button {
   font-size: 1rem;
   color: #FFF;
-  background-color: #96B9C0;
+  background-color: #2DABAB;
   padding: 0.5rem;
   border: 0 none;
   border-radius: 0.1rem;
@@ -163,7 +163,10 @@ button {
 
 .large {
   font-size: 2rem;
-  color: #F5BC57; }
+  color: #F5930B; }
+  .large:hover, .large:focus {
+    color: #FF5D05;
+    outline: none; }
 
 .text_shadow {
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
@@ -173,17 +176,19 @@ button a {
 
 .recent_work {
   margin: 0 auto;
-  padding-top: 5rem; }
+  padding: 8rem 3rem 3rem; }
   .recent_work h1 {
     font-size: 2rem;
-    color: #003642; }
+    color: #204B58; }
   .recent_work h2 {
     font-size: 1.5rem;
-    color: #F5BC57;
+    color: #F5930B;
     width: 90%;
     text-align: justify;
     margin: 0 auto;
-    padding-bottom: .5rem; }
+    padding-bottom: .5rem;
+    text-transform: uppercase;
+    font-family: "Unica One"; }
   .recent_work p {
     margin: 0 auto;
     font-size: .8rem;
@@ -194,21 +199,20 @@ button a {
     width: 100%;
     padding-bottom: 5%;
     margin: 0 auto; }
+    .recent_work img:focus, .recent_work img:hover {
+      transition: all .30s ease;
+      opacity: .8;
+      cursor: pointer;
+      z-index: 5; }
 
 .full-image {
   width: 100%;
   height: auto; }
 
-.social_nav {
-  text-align: center;
-  margin-top: 1rem; }
-  .social_nav span {
-    padding: 0 1rem; }
-
 footer p {
   font-size: 1rem;
   text-align: center;
-  color: #96B9C0;
+  color: #2DABAB;
   padding-top: 1rem; }
 
 /*  ----Responsive Grid System Custom Configure by Jay Diran Sweet, using the 2, 3, 4 column grid set up----  */
@@ -316,7 +320,7 @@ footer p {
   .span_1_of_4 {
     width: 100%; } }
 .splash_bkg {
-  background: url(../img/NewWhip.jpg) no-repeat;
+  background: url(../img/triangles.png) no-repeat;
   background-size: cover;
   height: auto;
   background-attachment: fixed;
@@ -325,25 +329,30 @@ footer p {
 .splash_container {
   height: 29rem; }
 
-.splash_title {
-  font: 3rem/3rem "Unica One", sans-serif;
-  padding: 10rem 1rem 3rem 3rem;
+.splash_title h1 {
+  font: 2.5rem/2rem "Unica One", sans-serif;
+  padding: 10rem 1rem 0 3rem;
   color: #FFF;
   font-weight: bolder; }
+.splash_title h2 {
+  font: 1.5rem/2rem "Vollkorn", sans-serif;
+  padding: 1rem 1rem 3rem 3rem;
+  color: #FFF; }
 
 .body_light {
-  background-color: rgba(255, 255, 255, 0.92);
+  background-color: rgba(255, 255, 255, 0.8);
   height: auto; }
 
 #navbar.navbar_fixed {
   position: fixed;
   top: 0;
+  z-index: 10;
   padding-top: 1rem;
   width: 100%;
   height: 3.75rem;
   box-shadow: 0 1px 1px #DCDCDC;
   background-color: white;
-  background-color: rgba(255, 255, 255, 0.95); }
+  background-color: rgba(255, 255, 255, 0.97); }
 
 #navbar.navbar_absolute {
   position: absolute;
@@ -352,7 +361,7 @@ footer p {
   width: 100%;
   height: 3.75rem;
   background-color: white;
-  background-color: rgba(255, 255, 255, 0.1); }
+  background-color: rgba(255, 255, 255, 0.06); }
 
 .navbar_container {
   margin: .85rem; }
@@ -369,14 +378,20 @@ footer p {
 .nav_logo {
   text-align: left;
   font-size: 2rem;
-  color: #F5BC57;
+  color: #F5930B;
   font-family: "Unica One";
-  margin: -2rem 1rem 0;
+  margin: -2rem 0 0 0;
   text-transform: uppercase;
   letter-spacing: -2px; }
 
+.social_nav {
+  text-align: center;
+  margin-top: 1rem; }
+  .social_nav span {
+    padding: 0 1rem; }
+
 .article_post {
-  color: #EE7E14;
+  color: #F1BD0C;
   padding: 2rem; }
   .article_post h1 {
     font-size: 2.1rem;
@@ -394,6 +409,6 @@ section .article_post {
   background-color: white;
   border-radius: 0.1rem;
   width: 100%;
-  height: 32rem; }
+  height: auto; }
 
 /*# sourceMappingURL=app.css.map */
