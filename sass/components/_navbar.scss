@@ -8,10 +8,6 @@
   box-shadow: 0 1px 1px #DCDCDC;
   background-color: rgb( 255, 255, 255);
   background-color: rgba( 255, 255, 255, 0.95);
-  .navbar_inline li {
-    background-color: rgba( 5, 5, 5, 0.075);
-    border-radius: 0.1rem;
-  }
 }
 #navbar.navbar_absolute {
   position: absolute;
@@ -29,10 +25,8 @@
 .navbar_inline li {
   display: inline;
   margin-left: .5rem;
-  padding: .5rem 1rem;
+  padding: .5rem 0;
   text-decoration: none;
-  background-color: rgba( 5, 5, 5, 0.025);
-  border-radius: 0.1rem;
 }
 .navbar_inline {
   text-align: right;
@@ -42,7 +36,7 @@
   font-size: 2rem;
   color: $third-color;
   font-family: $font-titles;
-  margin: -1.5rem 1rem 0;
+  margin: -2rem 1rem 0;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
 }

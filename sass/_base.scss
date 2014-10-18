@@ -22,17 +22,28 @@ a {
     transition: all .30s ease;
   }
 }
+button {
+  font-size: 1rem;
+  color: #FFF;
+  background-color: $second_color;
+  padding: 0.5rem;
+  border: 0 none;
+  border-radius: 0.1rem;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, .1);
+  margin-left: 5%;
+  margin-bottom: 5%;
+  &:hover {
+    cursor: pointer;
+    box-shadow: inset 0 -2px 0 rgba(0, 0, 0, .1);
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
 .large {
   font-size: 2rem;
   color: $third_color;
-}
-.ex-large {
-  font-size: 5rem;
-  color: $third_color;
-  &:hover {
-    color: $fourth_color;
-    transition: all .30s ease;
-  }
 }
 .text_shadow {
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
