@@ -1,20 +1,20 @@
 .splash_bkg {
   background: url(../img/NewWhip.jpg) no-repeat;
   background-size: cover;
-  height: 125rem;
+  height: auto;
   background-attachment: fixed;
   background-position: center center;
 }
 .splash_container {
-  height: 47rem;
+  height: 29rem;
 }
 .splash_title {
   font: 3rem/3rem $font-titles, sans-serif;
-  padding: 30rem 1rem 0 3rem;
+  padding: 20rem 1rem 3rem 3rem;
   color: #FFF;
   font-weight: bolder;
 }
 .body_light {
   background-color: rgba(255, 255, 255, 0.92);
-  height: 80rem;
+  height: auto;
 }

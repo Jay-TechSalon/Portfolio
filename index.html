@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>JDSweet's Portfolio</title>
+  <title>JaySweet UX/UI</title>
   <meta name="Description" content="getUserMedia API">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
@@ -16,10 +16,10 @@
   <main>
     <section class="splash_bkg">
       <section class="splash_container">
-        <section>
-          <h1 class="splash_title text__shadow">
+        <section class="splash_box">
+          <h1  id="home" class="splash_title text_shadow">
             Jay Diran Sweet
-            <br>Front End UX Designer &amp; Developer
+            <br>Front End UX/UI Developer &amp; Designer
           </h1>
         </section>
       </section>
@@ -28,14 +28,14 @@
         <nav class="navbar_container">
           <ul class="navbar_inline">
             <li>
-              <a href="#">Home</a>
+              <a href="#recentWork">Recent Work</a>
             </li>
             <li>
-              <a href="#">Recent Work</a>
+              <a href="#contactMe">Contact Me</a>
             </li>
-            <li>
-              <a href="#">Contact Me</a>
-            </li>
+          </ul>
+          <ul>
+            <li class="nav_logo"><a href="#home">JaySweet </a>UX/UI Developer</li>
           </ul>
         </nav>
       </header>
@@ -52,7 +52,7 @@
             That glass is the seperation we ourselves need to either smash through or figure out how to get around. When I decided to join Code Fellows, that day I set into motion the smashing of the glass.
           </p>
           <p>
-            <a href="#">Continue Reading</a>
+            <a id="recentWork" href="http://tech-salon.tumblr.com/post/98391472713/how-i-smashed-into-the-world-of-programming">Continue Reading</a>
           </p>
 
         </article>
@@ -60,7 +60,7 @@
         <article class="recent_work">
           <h1 class="article__header">Recent Work</h1>
           <section class="section group">
-            <section class="col span_1_of_2">
+            <section class="col span_2_of_4">
               <section class="shell">
                 <img src="img/take-a-break.jpg" alt="">
                 <h2>Ember - First Look</h2>
@@ -70,14 +70,14 @@
                 <button>See More</button>
               </section>
             </section>
-            <section class="col span_1_of_2">
+            <section class="col span_2_of_4">
               <section class="shell">
                 <img src="img/tutorius.jpg" alt="">
                 <h2>4 Day Sprint</h2>
                 <p>
                   In this sprint we set out to create a MEAN (Mongo DB, Express, Angular, Node) app with a backend JavaScript team. This app teaches concepts of a binary tree structure with a demo, an interactive component built with the JavaScript D3 library.
                 </p>
-                <button>See More</button>
+                <button><a href="recent.html">See More</a></button>
               </section>
             </section>
           </section>
@@ -88,15 +88,27 @@
       <!-- end of bkg pattern -->
     </section>
     <!-- end bkg image fixed -->
-    <section class="social_nav">
-      <span class="icon-tumblr2 ex-large"></span>
-      <span class="icon-github2 ex-large"></span>
-      <span class="icon-linkedin2 ex-large"></span>
-      <span class="icon-twitter2 ex-large"></span>
-    </section>
   </main>
-  <footer>
-    <p>Designed by Jay Diran Sweet | <a href="#">Check out my Code</a></p>
+  <footer class="social_nav">
+    <section id="contactMe">
+      <h1 class="large">Get in touch</h1>
+      <section>
+        <a href="http://www.tech-salon.tumblr.com/">
+          <span class="icon-tumblr2 ex-large"></span>
+        </a>
+        <a href="https://github.com/Jay-TechSalon">
+          <span class="icon-github2 ex-large"></span>
+        </a>
+        <a href="">
+          <span class="icon-linkedin2 ex-large"></span>
+        </a>
+        <a href="">
+          <span class="icon-twitter2 ex-large"></span>
+        </a>
+      </section>
+    </section>
+    <p>Designed by Jay Diran Sweet | <a href="#">Check out my Code</a>
+    </p>
   </footer>
   <script src="js/jquery-2.1.1.js"></script>
   <script src="js/bkg-fixed.js"></script>

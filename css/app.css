@@ -136,7 +136,7 @@ h1 {
   font: 4rem/4rem "Unica One", sans-serif;
   text-transform: uppercase;
   font-weight: bolder;
-  padding: 3rem 0 1.5rem 0; }
+  padding: 1rem 0 1rem 0; }
 
 a {
   text-decoration: none;
@@ -150,25 +150,17 @@ a {
   color: #F5BC57; }
 
 .ex-large {
-  font-size: 6rem;
+  font-size: 5rem;
   color: #F5BC57; }
   .ex-large:hover {
     color: #EE7E14;
     transition: all .30s ease; }
 
-.text__shadow {
+.text_shadow {
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
 
-section .article_post {
-  margin: 0 auto;
-  max-width: 54rem;
-  padding-top: 8rem; }
-
-.shell {
-  background-color: white;
-  border-radius: 0.1rem;
-  width: 100%;
-  height: 32rem; }
+button a {
+  color: #FFF; }
 
 .recent_work {
   margin: 0 auto;
@@ -193,13 +185,7 @@ section .article_post {
   .recent_work img {
     width: 100%;
     padding-bottom: 5%;
-    margin: 0 auto;
-    z-index: 5;
-    opacity: 1; }
-    .recent_work img:hover {
-      opacity: 0.8;
-      transition: all .30s ease;
-      cursor: pointer; }
+    margin: 0 auto; }
   .recent_work button {
     font-size: 1rem;
     color: #FFF;
@@ -212,22 +198,25 @@ section .article_post {
     margin-bottom: 5%; }
     .recent_work button:hover {
       cursor: pointer;
-      color: #003642;
       box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.1); }
     .recent_work button:focus {
       outline: none; }
 
+.full-image {
+  width: 100%;
+  height: auto; }
+
 .social_nav {
   text-align: center;
-  margin-top: 2rem;
-  height: 7.5rem; }
+  margin-top: 1rem; }
   .social_nav span {
-    padding: 1rem 1rem; }
+    padding: 0 1rem; }
 
 footer p {
   font-size: 1rem;
   text-align: center;
-  color: #96B9C0; }
+  color: #96B9C0;
+  padding-top: 1rem; }
 
 /*  ----Responsive Grid System Custom Configure by Jay Diran Sweet, using the 2, 3, 4 column grid set up----  */
 /*  ----SECTIONS----  */
@@ -336,26 +325,25 @@ footer p {
 .splash_bkg {
   background: url(../img/NewWhip.jpg) no-repeat;
   background-size: cover;
-  height: 125rem;
+  height: auto;
   background-attachment: fixed;
   background-position: center center; }
 
 .splash_container {
-  height: 47rem; }
+  height: 29rem; }
 
 .splash_title {
   font: 3rem/3rem "Unica One", sans-serif;
-  padding: 30rem 1rem 0 3rem;
+  padding: 20rem 1rem 3rem 3rem;
   color: #FFF;
   font-weight: bolder; }
 
 .body_light {
   background-color: rgba(255, 255, 255, 0.92);
-  height: 80rem; }
+  height: auto; }
 
 #navbar.navbar_fixed {
   position: fixed;
-  z-index: 10;
   top: 0;
   padding-top: 1rem;
   width: 100%;
@@ -369,7 +357,7 @@ footer p {
 
 #navbar.navbar_absolute {
   position: absolute;
-  top: 750px;
+  top: 460px;
   padding-top: 1rem;
   width: 100%;
   height: 3.75rem;
@@ -377,7 +365,7 @@ footer p {
   background-color: rgba(255, 255, 255, 0.1); }
 
 .navbar_container {
-  padding: .85rem; }
+  margin: .85rem; }
 
 .navbar_inline li {
   display: inline;
@@ -386,6 +374,18 @@ footer p {
   text-decoration: none;
   background-color: rgba(5, 5, 5, 0.025);
   border-radius: 0.1rem; }
+
+.navbar_inline {
+  text-align: right; }
+
+.nav_logo {
+  text-align: left;
+  font-size: 2rem;
+  color: #F5BC57;
+  font-family: "Unica One";
+  margin: -1.5rem 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: -1px; }
 
 .article_post {
   color: #EE7E14;
@@ -396,5 +396,16 @@ footer p {
   .article_post p {
     font-size: 1.2rem;
     line-height: 1.5rem; }
+
+section .article_post {
+  margin: 0 auto;
+  max-width: 54rem;
+  padding-top: 8rem; }
+
+.shell {
+  background-color: white;
+  border-radius: 0.1rem;
+  width: 100%;
+  height: 32rem; }
 
 /*# sourceMappingURL=app.css.map */
