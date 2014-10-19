@@ -1,16 +1,15 @@
 // Layout for the site
 .recent_work {
   margin: 0 auto;
-  padding: 8rem 3rem 3rem;
+  padding: 8rem 1rem 2rem;
   h1 {
     font-size: 2rem;
     color: $first-color;
   }
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: $third-color;
     width: 90%;
-    text-align: justify;
     margin: 0 auto;
     padding-bottom: .5rem;
     text-transform: uppercase;
@@ -21,8 +20,7 @@
     font-size: .8rem;
     line-height: 1.2rem;
     width: 90%;
-    text-align: justify;
-    color: $second-color;
+    color: $first-color;
   }
   img {
     width: 100%;
@@ -41,10 +39,11 @@
   height: auto;
 }
 footer {
+  background-color: white;
   p {
     font-size: 1rem;
     text-align: center;
-    color: $second_color;
+    color: $first-color;
     padding-top: 1rem;
   }
 }
